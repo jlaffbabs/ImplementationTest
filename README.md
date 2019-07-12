@@ -21,3 +21,9 @@ The aim of this implementation is to receive data regarding business opportuniti
 1. We can use methods such as auth.test in order to ensure only certain people can post webhooks.
 2. We would use chat.postMessage with the correct arguments in order to post the message to the channel.
 3. We would allow for methods such as chat.delete and chat.update to be used in case the business opportunity no longer needs to be followed or needs to be altered.
+
+### Questions
+Some follow-up questions to ensure that everyone is on the same page:
+* Could we explain anything further to you?
+* Are you satisfied with the outcome of this implementation?
+* Is there anything further you would like us to add or anything you would rather we did differently?

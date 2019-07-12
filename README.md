@@ -7,3 +7,17 @@ The aim of this implementation is to receive data regarding business opportuniti
 ![](Implementation.png)
 
 ## Explanation
+### Config
+1. The slack Workspace will need to have Incoming Webhooks enabled by going to
+   Settings -> Incoming Webhooks -> Activate Incoming Webhooks.
+2. Now you will be able to create Webhooks, please ensure that these are in
+   JSON format.
+
+### Requirements
+1. We will need a database in order to store other information about business
+   opportunities such as the ID to easily search for and access them.
+
+### Methods Used
+1. We can use methods such as auth.test in order to ensure only certain people can post webhooks.
+2. We would use chat.postMessage with the correct arguments in order to post the message to the channel.
+3. We would allow for methods such as chat.delete and chat.update to be used in case the business opportunity no longer needs to be followed or needs to be altered.
